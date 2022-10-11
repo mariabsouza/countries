@@ -1,0 +1,22 @@
+<h1>List of all countries</h1>
+
+<div id="list">
+
+<table>
+  <thead>
+    <td>Code</td>
+    <td>Name</td>
+    <td>Continent</td>
+  </thead>
+  {{#each country}}
+  <tr>
+    <td>{{this.Code}}</td>
+    <td><a href="/{{this.Code}}">{{this.Name}}</a></td>
+    <td>{{this.Continent}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+</div>
+
+

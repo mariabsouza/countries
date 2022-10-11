@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+
+
+h1 {
+  font-family: 'Poppins';
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+thead {
+  background-color: pink;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgba(238, 149, 220, 0.676);
+  padding: 1rem;
+}
+
+p, td {
+  font-family: 'DM Sans';
+}
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.088);
+}
+
+#country {
+  text-align: center;
+}
+
+ #country tr {
+  text-align: start;
+}
+
+
+#country td {
+  border: none;
+}

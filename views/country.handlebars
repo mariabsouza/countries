@@ -1,0 +1,46 @@
+<div id="country">
+<img src="https://countryflagsapi.com/png/{{country.Code}}" id="country-flag">
+<h1>{{country.Name}}</h1>
+
+<table>
+  <tr>
+    <td>Code:</td>
+    <td>{{country.Code}}</td>
+  </tr>
+  <tr>
+    <td>Region:</td>
+    <td>{{country.Region}}</td>
+  </tr>
+  <tr>
+    <td>Surface Area: </td>
+    <td>{{country.SurfaceArea}}</td>
+  </tr>
+  {{#if country.IndepYear}}
+    <tr>
+    <td>Indepedence Year: </td>
+    <td>{{country.IndepYear}}</td>
+  </tr>
+{{/if}}
+  <tr>
+    <td>Population: </td>
+    <td>{{country.Population}}</td>
+  </tr>
+  <tr>
+    <td>Life Expectancy: </td>
+    <td>{{country.LifeExpectancy}}</td>
+  </tr>
+  <tr>
+    <td>Local name:</td>
+    <td> {{country.LocalName}}</td>
+  </tr>
+  <tr>
+    <td>Government Form:</td>
+    <td>{{country.GovernmentForm}}</td>
+  </tr>
+  <tr>
+    <td>Head of State:</td>
+    <td>{{country.HeadOfState}}</td>
+  </tr>
+</table>
+
+</div>
